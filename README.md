@@ -18,7 +18,7 @@ The github repository contains two folders where:
   - `CreateDictionary.java`
 - `screenshots`: the folder contains screenshots from the application
 
-The repository doesn't contain the above folders:
+The repository doesn't contain these folders:
 
 - `lib`: the folder to maintain dependencies 
   - `javafx-sdk-17.0.2` javafx dependecies downloaded from https://gluonhq.com/products/javafx/
