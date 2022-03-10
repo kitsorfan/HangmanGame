@@ -1,0 +1,101 @@
+/* Kitsos Orfanopoulos, reference for some buttons: http://fxexperience.com/2011/12/styling-fx-buttons-with-css/ */
+
+imageHang{
+	-fx-hbar-policy: never;
+	-fx-vbar-policy: never;
+	-fx-fit-to-width: true;
+	-fx-fit-to-height: true;
+	-fx-pannable: true;
+	-fx-alignment: center;
+}
+
+
+.middleAnchor{
+	-fx-background-color: 
+		linear-gradient(from 0% 50% to 100% 50%, rgba(255,0,255,0.8), rgba(0,0,255,0)),
+		linear-gradient(from 0% 100% to 50% 50%, rgba(200, 255, 0, 0.8), rgba(0,0,255,0)),
+		linear-gradient(from 100% 100% to 50% 50%, rgba(0, 0, 255, 0.8), rgba(0,0,255,0));
+	
+}
+
+.upperAnchor{
+	-fx-background-color: 
+		linear-gradient(from 0% 50% to 100% 50%, rgba(255,0,255,0.8), rgba(0,0,255,0)),
+		linear-gradient(from 0% 100% to 50% 50%, rgba(200, 255, 0, 0.8), rgba(0,0,255,0)),
+		linear-gradient(from 100% 100% to 50% 50%, rgba(0, 0, 255, 0.8), rgba(0,0,255,0));
+	
+}
+
+.downAnchor{
+	-fx-background-color: 
+		linear-gradient(from 0% 50% to 100% 50%, rgba(155,0,255,0.2), rgba(0,0,255,0)),
+		linear-gradient(from 0% 100% to 50% 50%, rgba(200, 255, 0, 0.2), rgba(0,0,255,0)),
+		linear-gradient(from 100% 100% to 50% 50%, rgba(100, 0, 255, 0.2), rgba(0,0,255,0));
+	
+}
+
+.bottomButtons{
+ 	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 1 2 1 2;
+}
+
+
+.bottomButtons:hover{
+ 	-fx-background-color: 
+        linear-gradient(#fdd65b, #e68400),
+        linear-gradient(#fdef84, #f2ba44),
+        linear-gradient(#faea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 90%),
+        linear-gradient(from 0% 0% to 25% 100%, rgba(255,255,255,0.8), rgba(255,255,255,0));
+}
+
+
+
+.recordSales {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+
+}
+
+.recordSales:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+.recordSales:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+.windows7 {
+    -fx-background-color: 
+        #707070,
+        linear-gradient(#fcfcfc, #f3f3f3),
+        linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
