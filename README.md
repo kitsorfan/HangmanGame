@@ -2,10 +2,11 @@
 # **The ultimate Hangman** 
 
 ### Semester project for Multimedia Technology Lab course at [ECE](https://www.ece.ntua.gr/en)⚡, [NTUA](https://www.ntua.gr/en)🎓, academic year 2021-2022
-<h4><i> NTUA-ECE⚡, MEDIALAB💻<i></h4>
+
 
 <img alt="Java" src = "https://img.shields.io/badge/Java & Java fx-1136AA?style=for-the-badge&logo=java&logoColor=white" height="28"> <img alt="Eclipse IDE" src = "https://img.shields.io/badge/Eclipse IDE-purple?style=for-the-badge&logo=eclipse&logoColor=white" height="28">
 
+<img alt="Byte Code Size" src="https://img.shields.io/github/languages/code-size/kitsorfan/HangmanGame?color=blue" /> <img alt="# Lines of Code" src="https://img.shields.io/tokei/lines/github/kitsorfan/HangmanGame?color=yellow" /> <img alt="Last commit" src="https://img.shields.io/github/last-commit/kitsorfan/HangmanGame?color=green" />
 <br>
 
 ## **📋 Description**
