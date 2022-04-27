@@ -14,8 +14,7 @@
 
 This is a custom version of the game Hangman. Project's assignment and report are written in greek.
 
-<br>
-
+  
 ## **📂Folder Structure**
 
 ### The github repository contains two folders where:
